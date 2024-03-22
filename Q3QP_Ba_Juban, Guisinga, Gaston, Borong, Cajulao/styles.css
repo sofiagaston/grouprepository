@@ -1,0 +1,40 @@
+body {
+    background-image: url('startingbg.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.startText {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 30vh;
+    font-size: x-large;
+    text-shadow: black 2px 2px;
+    color: white;
+}
+
+.startButton img {
+    top: 40%;
+    align-items: center;
+}
+
+.startButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.startButton img:hover {
+    opacity: 0.85;
+    transform: scale(1.1);
+}
+
+#dropdown {
+    padding: 10px;
+    text-align: center;
+    font-family: "VT323", monospace;
+    font-weight: 400;
+}
