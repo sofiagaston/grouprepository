@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Toss Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="startText">
+        <h1>Click the button to start the game!</h1>
+    </div>
+
+    <div class="startButton">
+        <img src="startButton.png" height="90px" alt="Start Button" onclick="showDropdown()">
+    </div>
+
+    <div id="dropdown" class="dropdown">
+        <select id="coinSelection">
+            <option value="heads">heads</option>
+            <option value="tails">tails</option>
+        </select>
+        <button id="flipButton" type="button" onclick="tossCoin()">Flip Coin</button>
+    </div>
+    
+    <div id="resultText" class="resultText"></div> 
+    
+    <script src="script.js"></script>
+</body>
+</html>
